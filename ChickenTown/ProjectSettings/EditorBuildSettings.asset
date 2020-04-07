@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/WelcomeScene.unity
+    guid: 5e20a040f3f12c940952f698b8a1a224
+  - enabled: 1
+    path: Assets/Scenes/NetworkScene.unity
+    guid: c1a2a0bb6e7fe684993a6d07e2749c5a
+  - enabled: 1
+    path: Assets/Scenes/NetworkWaitScene.unity
+    guid: 29151ffaeaa6d704bba3c3f5957e16ff
+  - enabled: 1
+    path: Assets/Scenes/ChickenGame.unity
+    guid: 743ab73ac230f3a44ac459a6ca6bfed8
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  m_configObjects: {}

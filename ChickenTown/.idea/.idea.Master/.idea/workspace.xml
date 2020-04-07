@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="012f27c6-f40f-4a21-8c31-970934c12f1e" name="Default Changelist" comment="">
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ArduinoUnityConnection/WifiConnection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ArduinoUnityConnection/WifiConnection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ArduinoUnityConnection/WifiConnection.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ArduinoUnityConnection/WifiConnection.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ArduinoUnityConnection/WifiConnectionImproved.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ArduinoUnityConnection/WifiConnectionImproved.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TestHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TestHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Master/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Master/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Master/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Master/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Master/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Master/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Master/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Master/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Arduino.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Arduino.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Arduino/ArduinoCommunication.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Arduino/ArduinoCommunication.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Moving_block/Player_handler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Moving_block/Player_handler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.progrids/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.progrids/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+>>>>>>> 8e2f612e7bda43bd64591dc8936c212d05292f2a
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+<<<<<<< HEAD
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/WallController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/Interfaceses/IMoveObserver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/GameHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoreGame/Interfaceses/ITradeObserver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TestHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AdminGUI/ExternalPlayerControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ActivateAllDisplays.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ArduinoUnityConnection/WifiConnection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Container/PlayerTrade.cs" root0="FORCE_HIGHLIGHTING" />
+=======
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Arduino/ArduinoCommunication.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Container/PlayerMove.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Moving_block/Block.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SequenceHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ActivateAllDisplays.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Moving_block/Player_handler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TestHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Arduino.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+>>>>>>> 8e2f612e7bda43bd64591dc8936c212d05292f2a
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AadminGUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AdminGUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Container/PlayerMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SequenceHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TestHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ActivateAllDisplays.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Moving_block/player_handler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Moving_block/Block.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Moving_block/Player_handler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Arduino/ArduinoCommunication.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YFWTQLoO8VhjELgfyt0DLPb0Ks" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="Rider.SolutionExplorerActivator" value="true" />
+    <property name="TWShift.3" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="SolutionBuilderGeneralOptionsPageId" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="012f27c6-f40f-4a21-8c31-970934c12f1e" name="Default Changelist" comment="" />
+      <created>1582538831600</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582538831600</updated>
+      <workItem from="1582538838555" duration="909000" />
+      <workItem from="1582551518457" duration="4614000" />
+      <workItem from="1582569837411" duration="4570000" />
+      <workItem from="1582628597549" duration="1841000" />
+<<<<<<< HEAD
+      <workItem from="1582633766334" duration="5598000" />
+      <workItem from="1582643604013" duration="2902000" />
+      <workItem from="1582657934117" duration="2344000" />
+      <workItem from="1582662890969" duration="7081000" />
+      <workItem from="1582715830078" duration="4218000" />
+      <workItem from="1582720375094" duration="980000" />
+      <workItem from="1582733319422" duration="1839000" />
+      <workItem from="1582819498594" duration="10654000" />
+      <workItem from="1582883931736" duration="3017000" />
+      <workItem from="1583139162512" duration="20748000" />
+      <workItem from="1583185093274" duration="1074000" />
+      <workItem from="1583186284466" duration="2530000" />
+      <workItem from="1583189511040" duration="3648000" />
+<<<<<<< Updated upstream
+      <workItem from="1583229221157" duration="11377000" />
+      <workItem from="1583311581049" duration="1037000" />
+=======
+      <workItem from="1582634745747" duration="281000" />
+      <workItem from="1582635053483" duration="303000" />
+      <workItem from="1582635433479" duration="310000" />
+      <workItem from="1582636669800" duration="1086000" />
+      <workItem from="1582637789942" duration="868000" />
+      <workItem from="1582639280145" duration="264000" />
+      <workItem from="1582639995513" duration="219000" />
+      <workItem from="1582640298865" duration="144000" />
+      <workItem from="1582640511275" duration="543000" />
+      <workItem from="1582641079717" duration="274000" />
+      <workItem from="1582642160848" duration="61000" />
+      <workItem from="1582642244101" duration="369000" />
+      <workItem from="1582642635550" duration="184000" />
+      <workItem from="1582642995163" duration="8161000" />
+      <workItem from="1582710998528" duration="15412000" />
+      <workItem from="1582881922232" duration="1797000" />
+      <workItem from="1583137664442" duration="1203000" />
+>>>>>>> 8e2f612e7bda43bd64591dc8936c212d05292f2a
+=======
+      <workItem from="1583229221157" duration="11781000" />
+>>>>>>> Stashed changes
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Assets/NavMeshComponents" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="764" y="199" key="RiderGenerateDialog" timestamp="1582705526488">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="764" y="199" key="RiderGenerateDialog/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1582705526488" />
+    <state x="393" y="187" key="SettingsEditor" timestamp="1582642732530">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="393" y="187" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1582642732530" />
+    <state x="393" y="187" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582640597728" />
+    <state x="2536" y="250" key="run.anything.popup" timestamp="1582882624735">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="616" y="243" key="run.anything.popup/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1582642714578" />
+    <state x="2536" y="250" key="run.anything.popup/0.0.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582882624735" />
+    <state x="2543" y="233" width="672" height="698" key="search.everywhere.popup" timestamp="1582882523560">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.0.1920.1080@0.0.1920.1050" timestamp="1582715573332" />
+    <state x="2543" y="233" width="672" height="698" key="search.everywhere.popup/0.0.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582882523560" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

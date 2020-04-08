@@ -84,8 +84,6 @@ public class ChickenController : MonoBehaviourPunCallbacks
         if (!_photonView.IsMine) return;
 
         //Ground Movement Control
-        
-        
         if (Input.GetKey(KeyCode.UpArrow))
         {
             if (velZ < 0)

@@ -23,14 +23,6 @@ namespace DefaultNamespace
             PhotonNetwork.SetInterestGroups(2,true);
         }
 
-        private void Update()
-        {
-            if (Input.GetKeyDown(KeyCode.O))
-            {
-                _myPhotonView.RPC("PrintOut",RpcTarget.Others,"Test message");
-            }
-        }
-
         public void OnElevatorBtnPushed(int elevatorId)
         {
             _myPhotonView.RPC("RPC_ElevatorEvent",RpcTarget.Others,elevatorId);

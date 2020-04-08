@@ -30,7 +30,7 @@ public class ChickenController : MonoBehaviourPunCallbacks
     
     private bool _movement;
     
-    private List<Color32> colors = new List<Color32>(){new Color32(255,162,162,255),new Color32(162,214,255,255),new Color32(132,255,140,255),new Color32(255,255,255,255)};
+    private readonly List<Color32> _colors = new List<Color32>(){new Color32(255,162,162,255),new Color32(162,214,255,255),new Color32(132,255,140,255),new Color32(255,255,255,255)};
     private int colorCounter = 0;
 
     [Header("Message Components")] 
@@ -39,7 +39,7 @@ public class ChickenController : MonoBehaviourPunCallbacks
 
     private bool _messageBeingShowed;
     private bool _messageInQue;
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -204,23 +204,22 @@ public class ChickenController : MonoBehaviourPunCallbacks
                 velY = jumpSpeed;
             }
         }
-        
+
         velY -= gravity * Time.deltaTime;
         
         Vector3 newPosition = new Vector3(velX, 0.0f, velZ);
         transform.LookAt(newPosition + transform.position);
 
-        moveVector = new Vector3(velX * Time.deltaTime, velY * Time.deltaTime, velZ * Time.deltaTime) + (externalVelocity*Time.deltaTime);
+        moveVector = new Vector3(velX * Time.deltaTime, velY*Time.deltaTime, velZ * Time.deltaTime) + (externalVelocity*Time.deltaTime);
         controller.Move(moveVector);
-
-        
     }
     
     [PunRPC]
     private void ChangeColor(int viewId)
     {
         if (photonView.ViewID != viewId) return;
-        GetComponent<Renderer>().material.color = colors[colorCounter];
+        //GetComponent<Renderer>().material.color = _colors[colorCounter];
+        GetComponent<Renderer>().material.SetColor("_BaseColor",_colors[colorCounter]);
 
         colorCounter++;
 

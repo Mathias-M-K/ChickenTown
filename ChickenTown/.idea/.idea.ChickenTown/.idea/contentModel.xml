@@ -607,10 +607,12 @@
           <e p="CustomCameraMovement.cs" t="Include" />
           <e p="ElevatorButtonController.cs" t="Include" />
           <e p="ElevatorController.cs" t="Include" />
+          <e p="FireworksManager.cs" t="Include" />
           <e p="FixRotation.cs" t="Include" />
           <e p="GameGUI" t="Include">
-            <e p="GameSetupController.cs" t="Include" />
-            <e p="GlobalValues.cs" t="Include" />
+            <e p="Game" t="Include">
+              <e p="PlayerMenuController.cs" t="Include" />
+            </e>
             <e p="NetworkScene" t="Include">
               <e p="CreateRoomPanelUIController.cs" t="Include" />
               <e p="JoinRoomPanelUIController.cs" t="Include" />
@@ -626,6 +628,8 @@
               <e p="WelcomeScreenController.cs" t="Include" />
             </e>
           </e>
+          <e p="GameSetupController.cs" t="Include" />
+          <e p="GlobalValues.cs" t="Include" />
           <e p="PlatformAttach.cs" t="Include" />
           <e p="UIController.cs" t="Include" />
         </e>

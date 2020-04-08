@@ -1,8 +1,12 @@
 ﻿using System;
+using GameGUI;
+using GameGUI.Game;
+using Michsky.UI.ModernUIPack;
 using Photon.Pun;
 using TMPro;
 using UnityEngine;
 using UnityEngine.ProBuilder;
+using UnityEngine.SceneManagement;
 
 namespace DefaultNamespace
 {
@@ -15,7 +19,12 @@ namespace DefaultNamespace
             current = this;
         }
 
-        private ChickenController chickenController;
+        [Header("Player UI")] 
+        public PlayerMenuController menuController;
+        private bool _playerUiOpen;
+        
+        [Header("Other")]
+        private ChickenController _chickenController;
 
         public GameObject messageInputObject;
         public TMP_InputField messageInput;
@@ -29,16 +38,31 @@ namespace DefaultNamespace
 
         private void Update()
         {
-            if (chickenController == null) return;
-            if (!chickenController._photonView.IsMine) return;
+            
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                if (_playerUiOpen)
+                {
+                    menuController.Close();
+                }
+                else
+                {
+                    menuController.Open();
+                }
+
+                _playerUiOpen = !_playerUiOpen;
+            }
             
             if (Input.GetKeyDown(KeyCode.Return))
             {
+                if (_chickenController == null) return;
+                if (!_chickenController._photonView.IsMine) return;
+                
                 if (_messageFieldOpen)
                 {
                     if (messageInput.text != "")
                     {
-                        chickenController.SendChickenMessage(messageInput.text);
+                        _chickenController.SendChickenMessage(messageInput.text);
                         print("Sending message");
                     }
 
@@ -58,7 +82,7 @@ namespace DefaultNamespace
 
         public void SetChickenController(ChickenController newChickenController)
         {
-            chickenController = newChickenController;
+            _chickenController = newChickenController;
         }
     }
 }

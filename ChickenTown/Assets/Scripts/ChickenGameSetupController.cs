@@ -10,7 +10,8 @@ namespace Networking
         
         private void Start()
         {
-            //if (GameHandler.gameHandler.gameType == GameType.Local) return;
+            if (!PhotonNetwork.IsConnected) return;
+                //if (GameHandler.gameHandler.gameType == GameType.Local) return;
             CreatePlayer();
         }
 

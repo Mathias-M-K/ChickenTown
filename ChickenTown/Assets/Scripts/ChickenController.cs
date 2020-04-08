@@ -70,8 +70,14 @@ public class ChickenController : MonoBehaviourPunCallbacks
                 });
         }
 
-        
-        
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            if (!_photonView.IsMine) return;
+            RPC_ToggleEmission(1.8f);
+            
+            _photonView.RPC("RPC_ToggleEmission",RpcTarget.Others,1.8f);
+        }
         
         if (Input.GetKeyDown(KeyCode.Tab))
         {
@@ -227,6 +233,13 @@ public class ChickenController : MonoBehaviourPunCallbacks
         {
             colorCounter = 0;
         }
+    }
+
+    [PunRPC]
+    public void RPC_ToggleEmission(float emissionValue)
+    {
+        
+        GetComponent<Renderer>().material.SetColor("_EmissionColor",value: Color.red * emissionValue);
     }
 
     [PunRPC]

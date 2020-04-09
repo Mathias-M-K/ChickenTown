@@ -71,13 +71,13 @@ public class ChickenController : MonoBehaviourPunCallbacks
         }
 
 
-        if (Input.GetKeyDown(KeyCode.E))
+        /*if (Input.GetKeyDown(KeyCode.E))
         {
             if (!_photonView.IsMine) return;
             RPC_ToggleEmission(1.8f);
             
             _photonView.RPC("RPC_ToggleEmission",RpcTarget.Others,1.8f);
-        }
+        }*/
         
         if (Input.GetKeyDown(KeyCode.Tab))
         {
@@ -235,12 +235,13 @@ public class ChickenController : MonoBehaviourPunCallbacks
         }
     }
 
+    /*
     [PunRPC]
     public void RPC_ToggleEmission(float emissionValue)
     {
         
         GetComponent<Renderer>().material.SetColor("_EmissionColor",value: Color.red * emissionValue);
-    }
+    }*/
 
     [PunRPC]
     public void ReceiveMessage(string message, int viewID)
@@ -257,7 +258,6 @@ public class ChickenController : MonoBehaviourPunCallbacks
             _messageBeingShowed = true;
         }
     }
-
     private IEnumerator ShowMessageForSeconds(string message, int seconds)
     {
         speechBubbleObj.SetActive(true);
@@ -274,7 +274,6 @@ public class ChickenController : MonoBehaviourPunCallbacks
         _messageInQue = false;
         _messageBeingShowed = false;
     }
-    
     public void SendChickenMessage(string message)
     {
         _photonView.RPC("ReceiveMessage",RpcTarget.All,message,_photonView.ViewID);
